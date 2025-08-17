@@ -1,5 +1,7 @@
-let nome = "Vanilo";
-let XP = 3890;
+const prompt = require('prompt-sync')();
+
+let nome = prompt("Qual o seu nome? ");
+let XP = prompt("Quanta experiência você tem? ");
 let nivel = "";
 
 if(XP <= 1000) { 
